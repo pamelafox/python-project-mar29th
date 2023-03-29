@@ -1,0 +1,14 @@
+[tool.ruff]
+select = ["E", "F", "I", "UP"] # flake8, isort, pyupgrade
+target-version = "py311"
+line-length = 100
+ignore = ["D203"]
+
+[tool.black]
+line-length = 100
+target-version = ['py39']
+
+[tool.pytest.ini_options]
+addopts = "-ra --cov"
+testpaths = ["tests"]
+pythonpath = ['.']
