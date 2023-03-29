@@ -1,11 +1,10 @@
 import copy
 
-import numpy
 import cv2
-from skimage import io
-import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
-
+import matplotlib.pyplot as plt
+import numpy
+from skimage import io
 
 RANDOM_GLOBAL_VARIABLE = 'im so cool'
 

@@ -1,4 +1,4 @@
-from image_filters import remove_red, remove_green, remove_blue
+from image_filters import remove_blue, remove_green, remove_red
 
 
 def test_remove_red():
