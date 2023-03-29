@@ -6,10 +6,12 @@ import matplotlib.pyplot as plt
 import numpy
 from skimage import io
 
-RANDOM_GLOBAL_VARIABLE = 'im so cool'
+RANDOM_GLOBAL_VARIABLE = "im so cool"
+
 
 def sum(a, b):
     return a + b
+
 
 def get_image_pixels(image_url):
     """Returns a nested list of the pixels for the image located at image_url"""

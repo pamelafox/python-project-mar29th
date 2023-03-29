@@ -1,11 +1,11 @@
 [tool.ruff]
 select = ["E", "F", "I", "UP"] # flake8, isort, pyupgrade
 target-version = "py311"
-line-length = 100
+line-length = 200
 ignore = ["D203"]
 
 [tool.black]
-line-length = 100
+line-length = 200
 target-version = ['py39']
 
 [tool.pytest.ini_options]

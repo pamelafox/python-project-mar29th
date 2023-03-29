@@ -7,5 +7,6 @@ def render_my_pic():
     pixel_data = get_image_pixels(url)
     render_pixels(pixel_data)
 
+
 if __name__ == "__main__":
     render_my_pic()
