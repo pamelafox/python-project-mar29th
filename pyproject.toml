@@ -6,7 +6,7 @@ ignore = ["D203"]
 
 [tool.black]
 line-length = 200
-target-version = ['py39']
+target-version = ["py311"]
 
 [tool.pytest.ini_options]
 addopts = "-ra --cov=."
